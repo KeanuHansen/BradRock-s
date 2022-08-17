@@ -6,7 +6,7 @@ Below are a few screenshots of the code:
 
 ![image](https://user-images.githubusercontent.com/44275960/185009980-48e64874-eea4-4519-919a-df033510e9f0.png)
 
-The technology that we used was a SQL database connected to ASP.net MVC core with Razor pages. We ran into technical difficulties with the frequency of queries, and the database. It was crashing frequently. So we had to put some timers to keep the queries from running too quickly before the database could handle it again, while not making it take too long to load. We also had to figure out how to strategically open and close connections.
+The technology that we used was a SQL database connected to ASP.net Razor pages. We ran into technical difficulties with the frequency of queries, and the database. It was crashing frequently. So we had to put some timers to keep the queries from running too quickly before the database could handle it again, while not making it take too long to load. We also had to figure out how to strategically open and close connections.
 
 I worked on the functionality that made it connect various functions to the database, so it could call the database, pull data, and send it to the front end code. Such as looking for a date or stock price on a certain date, or updating a value during a hold.
 
